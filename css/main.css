@@ -308,7 +308,22 @@ html {
      animation-name: fadeInUp;
    }
 
+  #jumboAcerca{
+    text-align: center;
+    background: url("../img/Jorge/road.jpeg") no-repeat center center;
+    background-size: cover;
+  }
+  #jumboContacto{
+    text-align: center;
+    background: url("../img/Jorge/contacto.jpeg") no-repeat center center;
+    background-size: cover;
+  }
 
+  @media only screen and (max-width: 360px) {
+    .titulo {
+        display: none;
+    }
+  }
 
  
 
