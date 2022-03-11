@@ -11,6 +11,18 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+      <div class="alert alert-dark fixed-bottom" role="alert" style="margin: 0!important;" id="cookiesAlert">
+        <div class="row">
+          <div class="col-10">
+            Usamos cookies en este sitio para proveerte la mejor experiencia, <a href="Política_de_privacidad.pdf" target="_blank">Leer más</a>. Al permanecer en el sitio asumimos que aceptas la politíca de uso y privacidad. 
+          </div>
+          <div class="col-2">
+          <button id="cerrarCookies" type="button" class="close" aria-label="Close" style="margin: 0 auto!important;">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+        </div>
+      </div>
       <!-- Barra de navegación -->
         <nav class="navbar fixed-top sticky-top navbar-expand-lg navbar-light color" id="nav_bar">
           <div class="container"> 
@@ -29,7 +41,7 @@
                     <a class="m link-negro" href="acercade.html">Acerca de nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="m link-negro" href="contacto.html">Contacto</a>
+                    <a class="m link-negro" href="contacto.php">Contacto</a>
                   </li>
                 </ul>
             </div>
@@ -50,7 +62,7 @@
             <div class="row" style="margin-top: 40px;">
               <div class="col-12">
                 <h3 > IBM Automotriz</h3>
-                <p style="text-align: justify; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. Aliquam sed finibus odio. Praesent at nisi orci. Sed luctus volutpat vestibulum. Integer a posuere ligula. Integer pellentesque est justo, luctus rutrum orci varius at. Curabitur justo massa, dictum ut felis quis, tincidunt iaculis mi. Suspendisse potenti. Nullam eget molestie ante, pharetra sagittis lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. Aliquam sed finibus odio. Praesent at nisi orci. Sed luctus volutpat vestibulum. Integer a posuere ligula. Integer pellentesque est justo, luctus rutrum orci varius at. Curabitur justo massa, dictum ut felis quis, tincidunt iaculis mi. Suspendisse potenti. Nullam eget molestie ante, pharetra sagittis lorem.</p>
+                <p style="text-align: justify; margin-top:30px;">Contamos con mas de 25 años de experiencia, cumpliendo satisfactoriamente en tiempo y forma con los trabajos que se llegan en conjunto a nuestros clientes, nuestra prioridad son ustedes y nos eforzamos en realizar los mejores trabajos para corresponder a su confianza. Contamos con 5 áreas de trabajo donde nos empeñamos dia a dia en optimizar el trabajo y satisfacer a nuestros clientes.</p>
               </div>
               <div class="col-12" style="margin-top:30px;">
                 <h3 > Trabajos que desempeñamos</h3>
@@ -59,8 +71,8 @@
                     <div class="card">
                       <img src="./img/Jorge/motor.jpeg" class="img-fluid rounded color" alt="componentes">
                       <div class="card-body">
-                        <h5 class="card-title">Trabajo 1</h5>
-                        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. </p>
+                        <h5 class="card-title">Suspensiones</h5>
+                        <p style="text-align: justify;">Realizamos un análisis completo para detectar las averías que podrian tener los amortiguadores y la suspension de su automovil, como : vástago de pistón dañado, válvulas de flujo flojas, rotura de muelle, casquillos de goma desgastados o deformados, etc.</p>
                       </div>
                     </div>
                   </div>
@@ -68,8 +80,8 @@
                     <div class="card">
                       <img src="./img/Jorge/motor.jpeg" class="img-fluid rounded color" alt="componentes">
                       <div class="card-body">
-                        <h5 class="card-title">Trabajo 1</h5>
-                        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. </p>
+                        <h5 class="card-title">Alineación y Balanceo</h5>
+                        <p style="text-align: justify;">Se balancea con presisión su coche, realizando un procedimiento donde nuestros expertos se aseguran de que sus llantas queden paralelas entre sí y perpendiculares al camino, así como ajustar y asegurar los pesos de cada una de sus llantas y su respectivo rín para mantener un equilibrio coorecto entre ambos.</p>
                       </div>
                     </div>
                   </div>
@@ -77,8 +89,9 @@
                     <div class="card">
                       <img src="./img/Jorge/motor.jpeg" class="img-fluid rounded color" alt="componentes">
                       <div class="card-body">
-                        <h5 class="card-title">Trabajo 1</h5>
-                        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. </p>
+                        <h5 class="card-title">Frenos</h5>
+                        <p style="text-align: justify;">Realizamos un trabajo eficiente sobre todos los componentes relacionados al sistema de frenos cambiando o ajustando lo necesario como: Juego de balatas, Rectificado de Discos o Tambores, Instalación – Mano de Obra, Revisión de Seguridad.
+                          </p>
                       </div>
                     </div>
                   </div>
@@ -86,8 +99,8 @@
                     <div class="card">
                       <img src="./img/Jorge/motor.jpeg" class="img-fluid rounded color" alt="componentes">
                       <div class="card-body">
-                        <h5 class="card-title">Trabajo 1</h5>
-                        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. </p>
+                        <h5 class="card-title">Direccion</h5>
+                        <p style="text-align: justify;">Ejercemos diferentes pruebas en la dirrecion de su carro, para así determinar la falla, como pudiera ser que esté muy floja o muy dura, que exista una oscilación o vibración de las ruedas transmitida por medio del volante, etc.</p>
                       </div>
                     </div>
                   </div>
@@ -95,8 +108,8 @@
                     <div class="card">
                       <img src="./img/Jorge/motor.jpeg" class="img-fluid rounded color" alt="componentes">
                       <div class="card-body">
-                        <h5 class="card-title">Trabajo 1</h5>
-                        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. </p>
+                        <h5 class="card-title">Enderezado de ejes</h5>
+                        <p style="text-align: justify;">Contamos con la maquinaria y empleados con experiencia directa en enderezado de los ejes de cualquier marca y modelo.</p>
                       </div>
                     </div>
                   </div>
@@ -104,8 +117,8 @@
                     <div class="card">
                       <img src="./img/Jorge/motor.jpeg" class="img-fluid rounded color" alt="componentes">
                       <div class="card-body">
-                        <h5 class="card-title">Trabajo 1</h5>
-                        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci nunc, tincidunt quis velit ut, sodales fringilla felis. Fusce tempus tellus ut arcu ornare, quis ornare nulla scelerisque. Vestibulum ut elit neque. Morbi non bibendum augue. </p>
+                        <h5 class="card-title">Acorazado de chasis</h5>
+                        <p style="text-align: justify;">Si usted desea reforzar, realizar cambios o cualquier ajuste sobre su chasis para mayor soporte y duracion, en este lugar se lo garantizamos en una duración de tiempo corto.</p>
                       </div>
                     </div>
                   </div>
@@ -123,7 +136,7 @@
               </div>
               <div class="col-12" style="margin-top:30px;">
                 <h3> ¿Como llegar? </h3>
-                <div id="map" style="height: 400px;margin-top:30px;"></div>
+                <div id="map" style="height: 450px;margin-top:30px;"></div>
               </div>
             </div>
           </div>
@@ -142,5 +155,6 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeyCoiSAlGIddLGrxMLcYojBu7ozZ4scw&callback=initMap"
         async defer></script>
         <script src="js/custom/main.js"></script>
+        <script src="js/custom/acercaDe.js"></script>
     </body>
 </html>

@@ -42,7 +42,7 @@
                     <a class="m link-negro" href="acercade.html">Acerca de nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="m link-negro" href="contacto.html">Contacto</a>
+                    <a class="m link-negro" href="contacto.php">Contacto</a>
                   </li>
                 </ul>
             </div>

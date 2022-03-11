@@ -325,6 +325,10 @@ html {
     }
   }
 
+  .cerrar{
+    display:none!important;
+  }
+
  
 
 
